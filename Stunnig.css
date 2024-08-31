@@ -1,0 +1,305 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0px;
+    background-color: white;
+}
+
+.Taskbar{
+    padding-top: 10px;
+   
+    
+
+}
+
+
+.icon{
+    float: left;
+    background-image: url(stunning-logo.png);
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.nav {
+
+    display: flex;
+    float: left;
+    width:60%;
+    margin-top: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: none;
+
+    
+
+}
+
+.nav a{
+    text-decoration: none;
+   margin: 15px;
+    color: #8071D0;
+    margin-top: 10px;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    background-color: #FE5D20;
+
+}
+
+.btn button{
+   float: left;
+    width: 20%;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+   
+    font-size: 10px;
+    color: purple;
+    background-color: #FFD8DB;
+    border-radius: 10px;
+}
+
+.btn button:hover{
+    cursor: pointer;
+}
+
+.header{
+    
+    padding-top: 50px;
+    margin-top: 40px;
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.image{
+    float: left;
+    padding-top: 500px;
+    margin-top: 100px;
+    padding-right: 50px;
+    height: 6%;
+    width: 600px;
+
+    background-image: url(landing-section-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.btn1 button{
+    margin-top: 30px;
+    float: left;
+    height: 40px;
+    width: 200px;;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #5243C0;
+    border-radius: 10px;
+}
+.btn1 button:hover{
+    cursor: pointer;
+    
+}
+
+
+.arrowup{
+    margin-top: 30px;
+    float: left;
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+    background-image: url(arrow-up.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.arrowdown{
+    margin-top: 30px;
+    float: left;
+    margin-left: 60px;
+    height: 50px;
+    width: 50px;
+    background-image: url(arrow-down\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+.icon1 ul{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 15px;
+
+}
+
+
+
+
+
+.tick-gray{
+    background-color: #ede9e9;
+}
+
+.tick-blue{
+    background-color: #fbfafa;
+}
+
+.tick-orange{
+    background-color: #ede9e9;
+
+}
+
+.tick-red{
+    background-color:#fbfafa;
+    
+}
+span{
+    float: right;
+    padding-left: 20px;
+}
+
+.abc{
+    
+    float: left;
+    width:80%;
+    margin-bottom: 100px;
+}
+
+.id{
+    float:left;
+    position: relative;
+    padding-bottom: 100px;
+    display: flex;
+    padding-left: 50px; 
+    margin-top: 60px;
+    background-size: contain;
+    backface-visibility: hidden;
+    border-collapse: collapse;
+    border-spacing: 0;
+    backdrop-filter:blur(degree-of-blur);
+   
+}
+
+.graytick{
+    float: left;
+    padding-left: 20px;
+}
+
+.pink{
+    padding-left: 100px;
+}
+
+.blurtick{
+    float: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.blue{
+    padding-left: 100px;
+    margin-top: 20px;
+    
+}
+
+.orangetick{
+    float: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.orange{
+    padding-left:100px;
+    
+    
+}
+
+
+.redtick{
+    float: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.red{
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* <!-- second step we have to create pop up value -->
+        <div class="popup" id="popup">
+            <i class="fa-solid fa-circle-check"></i>
+            <h2>Thank you!</h2>
+            <p>You are signup Successfuly. Thanks!</p>
+            <a href="#"><button type="submit" onclick="closePopup()" id="close-popup">Ok</button></a>
+
+            <!-- onclick="closePopup()" id="close-popup-button" -->
+         </div> */
+/* 
+         .popup{
+            width:400px;
+            background-color: white;
+            border-radius: 6px;
+            position: absolute;
+            top:0;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+            transition: transform .4s top .4s;
+            visibility: hidden;
+            text-align: center;
+            padding: 0 30px 30px;
+            height: 330px;
+            color: #000;
+        
+        
+        }
+        
+        .popup i{
+            color: chartreuse;
+            font-size: 50px;
+        }
+        
+        .popup button{
+            width: 100%;
+            background: #00ff00;
+            padding: 10px 0;
+            margin-top: 50px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 0 0 2px rgb(0,0,0,0.1);
+        }
+        
+        .popup a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 2px;
+        
+        }
+        
+        .open-slide{
+            top:50%;
+            transform: translate(-50%, -50%) scale(1);
+            visibility: visible;
+        } */
